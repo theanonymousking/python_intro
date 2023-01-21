@@ -28,7 +28,13 @@ if answer == "power supply unit":
 else:
     print("Sorry, but that is incorrect")
 
+answer = input("What sports does your dad play? ")
+if answer == "basketball":
+    print('Correct!')
+    score += 1
+else:
+    print("Go ask your dad again!")
 
 print("you got " + str(score) + " questons correct! ")
-print("you got " + str((score / 3) * 100) + "%.")
+print("you got " + str((score / 4) * 100) + "%.")
 
