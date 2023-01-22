@@ -21,7 +21,7 @@ if answer == "random access memory":
 else:
     print("Sorry, but that is incorrect")
 
-awnser = input("what does PSU stand for? ")
+answer = input("what does PSU stand for? ")
 if answer == "power supply unit":
     print('correct!')
     score += 1
