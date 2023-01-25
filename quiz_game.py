@@ -40,7 +40,7 @@ print("you got " + str(score) + " questons correct! ")
 averageScore = (score / 4) * 100
 print("you got " + str(averageScore) + "%")
 
-if averageScore >= 80:
+if averageScore >= 0:
     print("           O O           ")
     print("            ====)           ")
     print("         \______/      ")
