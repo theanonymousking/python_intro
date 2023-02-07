@@ -52,5 +52,45 @@ if playing != "yes":
 
 print("great!")
 print("in this part, we are going to guess games!")
-print("let's start!")
 
+
+print("Okay! Let's play :)")
+score = 0
+
+answer = input("what game do children play very often now? ")
+if answer == "roblox":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" what game has zerg, protoss, and terrain races? *hint: it's on battle.net! ")
+if answer == "Starcraft":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" what game was called cave game in 2009, but has a different name now? ")
+if answer == "minecraft":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" is there a world of starcraft? ")
+if answer == " no ":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+    print("you got " + str(score) + " questons correct! ")
+
+averageScore = (score / 4) * 100
+print("you got " + str(averageScore) + "%")
+
+if averageScore >= 0:
+    print("           O O           ")
+    print("            ====)           ")
+    print("         \______/      ")
