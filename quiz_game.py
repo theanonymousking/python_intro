@@ -45,3 +45,12 @@ if averageScore >= 0:
     print("            ====)           ")
     print("         \______/      ")
 
+print("welcome to part 2 of my computer game!")              #pt 2 of my computer quiz
+playing = input ("do you want to play?")
+if playing != "yes":
+    quit()
+
+print("great!")
+print("in this part, we are going to guess games!")
+print("let's start!")
+
