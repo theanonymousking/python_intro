@@ -94,3 +94,54 @@ if averageScore >= 0:
     print("           O O           ")
     print("            ====)           ")
     print("         \______/      ")
+
+
+
+print("welcome to part 3 of my computer game!")              #pt 3 of my computer quiz
+playing = input ("do you want to play?")
+if playing != "yes":
+    quit()
+   
+print(" great! in this part, we are going to guess minecraft things!")
+
+
+print("Okay! Let's play :)")
+score = 0
+
+answer = input(" what is the strongest armor and weapons in minecraft?")
+if answer == "Netherite items":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" what item was the best before netherite? ")
+if answer == "Diamonds":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" where can you find the enderdragon? ")
+if answer == "in the end dimension":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+answer = input(" how can you summon the wither? ")
+if answer == " 4 blocks of soul sand and 3 wither heads ":
+    print('correct!')
+    score += 1
+else:
+    print("Sorry, but that is incorrect")
+
+print("you got " + str(score) + " questons correct! ")
+
+averageScore = (score / 4) * 100
+print("you got " + str(averageScore) + "%")
+
+if averageScore >= 0:
+    print("           O O           ")
+    print("            ====)           ")
+    print("         \______/      ")
